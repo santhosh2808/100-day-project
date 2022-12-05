@@ -1,0 +1,92 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body .main{
+    display: flex;
+    flex-direction: row;
+}
+/*-- logo secrtion--*/
+.left_side{
+    height: 100%;
+    width:30%;
+    margin: 400px 0px 0px 150px;
+}
+.left_side img{
+    position: fixed;
+}
+
+/*--center--*/
+.center{
+    height: 100%;
+    width:40%;
+    margin-left: -100px;
+}
+.center .new_post .file_upload .file{
+    padding: 10px;
+    float: right;
+}
+.center .new_post .post_content .input{
+    padding: 2px 300px 150px 0px;
+    margin: 20px 0px 10px 50px;
+ }
+ .center .submit .post{
+    padding: 15px 75px;
+    margin: 100px 0px 0px 300px;
+ }
+ .center .poll{
+    margin-left: 30px;
+    margin-top: 5px;
+    border-top: 1px solid gray;
+ }
+ .center .poll h2{
+    margin: 20px 0px 0px 20px;
+ }
+ .center .poll .question_input{
+    margin: 20px 0px 0px 20px;
+ }
+ .center .poll .option_button{
+    margin: 20px 0px 0px 20px;
+    display: flex;
+    flex-direction: row;
+ }
+ .center .poll .range div{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+ }
+ .center .poll .post_button{
+    margin: 100px 0px 0px 400px;
+ }
+ .center .poll .post_button button{
+    padding: 15px 75px;
+ }
+/*--right section--*/
+.right_side{
+    height: 100%;
+    width: 30%;
+    margin: 130px 0px 0px 50px;
+}
+.right_side aside{
+    position: fixed;
+}
+.right_side aside a{
+    text-decoration: none;
+    padding: 30px 20px;
+    font-size: 20px;
+   
+}
+.right_side aside a div{
+    padding: 20px 50px;
+    margin: 5px 70px;
+    border-radius: 20px;
+    color: #026773;
+}
+.right_side aside a div:hover{
+    background-color: #3CA6A6;
+    color: white;
+}
+.right_side aside .create_new_post{
+    background-color: #3CA6A6;
+    color: white;
+}

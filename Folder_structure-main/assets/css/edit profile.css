@@ -1,0 +1,82 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body .main{
+    display: flex;
+    flex-direction: row;
+}
+/*-- logo secrtion--*/
+.left_side{
+    height: 100%;
+    width:30%;
+    margin: 400px 0px 0px 150px;
+}
+.left_side img{
+    position: fixed;
+}
+
+/*--center--*/
+.center{
+    height: 100%;
+    width:40%;
+    margin: auto;
+}
+.center .profile_photo .dp img{
+    border-radius: 300px;
+    margin-top: -100px;
+    border: 3px solid white;
+}
+.center .photo_change{
+    display: flex;
+    flex-direction: row;
+}
+.center .data_change{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.center .data_change input{
+    margin-top: 20px;
+    padding: 10px;
+}
+.center .submit{
+    display: flex;
+    justify-content: flex-end;
+    height: 150px;
+}
+.center .submit .sb{
+    margin-top: 100px;
+}
+.center .submit .sb button{
+    padding: 10px 25px 10px 25px;
+}
+/*--right section--*/
+.right_side{
+    height: 100%;
+    width: 30%;
+    margin: 130px 0px 0px 50px;
+}
+.right_side aside{
+    position: fixed;
+}
+.right_side aside a{
+    text-decoration: none;
+    padding: 30px 20px;
+    font-size: 20px;
+   
+}
+.right_side aside a div{
+    padding: 20px 50px;
+    margin: 5px 70px;
+    border-radius: 20px;
+    color: #026773;
+}
+.right_side aside a div:hover{
+    background-color: #3CA6A6;
+    color: white;
+}
+.right_side aside .profile{
+    background-color: #3CA6A6;
+    color: white;
+}

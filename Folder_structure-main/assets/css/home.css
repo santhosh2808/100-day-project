@@ -1,0 +1,103 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body .main{
+    display: flex;
+    flex-direction: row;
+}
+/*-- logo secrtion--*/
+.left_side{
+    height: 100%;
+    width:30%;
+    margin: 400px 0px 0px 150px;
+}
+.left_side img{
+    position: fixed;
+}
+
+/*--center--*/
+.center{
+    height: 100%;
+    width:40%;
+    margin: auto;
+}
+/*--post--*/
+.post{
+    border-bottom: 1px solid #3CA6A6;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 20px;
+}
+.post:hover{
+    background-color: #F2F3F4;
+}
+.post .user_list{
+    display: flex;
+    flex-direction: row;
+}
+.post .user_list .img{
+    padding-top: 10px;   
+}
+.post .user_list .img .profile_img{
+    border-radius: 30px;
+}
+.post .user .user_name{
+    font-size: 24px;
+    padding:15px 0px 0px 10px;
+    color:#3CA6A6;
+}
+.post .user .post_cuntent{
+    padding:10px 0px 0px 30px;
+    max-width: 25rem;
+}
+.post .post_img{
+    max-width: 20rem;
+    max-height: 13rem;
+    padding: 10px 0px 0px 80px;
+}
+.post .like_comand{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0px 10px 80px;
+}
+.post .like_comand .comand{
+    padding-left: 20px;
+}
+body header .home_button{
+    float: right;
+    margin-top: -40px;
+}
+body header .home_button button{
+    padding: 5px 15px;
+}
+
+/*--right section--*/
+.right_side{
+    height: 100%;
+    width: 30%;
+    margin: 130px 0px 0px 50px;
+}
+.right_side aside{
+    position: fixed;
+}
+.right_side aside a{
+    text-decoration: none;
+    padding: 30px 20px;
+    font-size: 20px;
+   
+}
+.right_side aside a div{
+    padding: 20px 50px;
+    margin: 5px 70px;
+    border-radius: 20px;
+    color: #026773;
+}
+.right_side aside .home{
+    background-color: #3CA6A6;
+    color: white;
+}
+.right_side aside a div:hover{
+    background-color: #3CA6A6;
+    color: white;
+}
